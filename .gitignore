@@ -76,3 +76,7 @@ typings/
 
 # Serverless directories
 .serverless
+
+# mac nosync
+node_modules
+node_modules.nosync/
