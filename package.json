@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "sh bin/create.sh",
+    "done": "sh bin/done.sh easy",
+    "done:easy": "npm run done",
+    "done:medium": "sh bin/done.sh medium",
+    "done:hard": "sh bin/done.sh hard"
   },
   "keywords": [],
   "author": "ryli <lov.2014@gmail.com>",

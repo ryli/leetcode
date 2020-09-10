@@ -5,5 +5,9 @@ module.exports = {
   ],
   testPathIgnorePatterns: [
     '/node_modules.nosync/',
+    'easy/',
+    'medium/',
+    'hard/',
+    'demo/',
   ],
 }
